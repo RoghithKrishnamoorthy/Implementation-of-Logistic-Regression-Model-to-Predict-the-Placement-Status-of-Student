@@ -8,10 +8,16 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the standard libraries.
+2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated()
+function respectively.
+3.LabelEncoder and encode the dataset.
+4.Import LogisticRegression from sklearn and apply the model on the dataset.
+5.Predict the values of array.
+6.Calculate the accuracy, confusion and classification report by importing the required modules
+from sklearn.
+7.Apply new unknown values.
+ 
 
 ## Program:
 ```
@@ -75,19 +81,18 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![273833218-c4603361-a589-4a4d-9454-adc780f5317a](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/37479a83-ec5e-45be-887c-0566ea2ed85c)
-![273833240-6a05087a-896f-4dda-9183-117d0959c138](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/94b4d4da-77e1-497a-9c1a-ae374b529b77)
-![273833281-f15df1d5-ad1b-4207-9fb1-1ef4bec98351](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/0fbedf2e-1bb7-4da1-a27b-8569fe8b3956)
-![273833483-ec6f4dec-33eb-4213-9db7-826f3adc64c8](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/f44d5792-b310-4bad-8b79-c691141627de)
-![273833507-85defd42-a247-4168-812c-e665dfd40f30](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/231b91c2-4c5d-4c53-949c-e1d5424d3d13)
-![273833536-ce6b2dde-45b4-4095-9a07-e823550cb8df](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/940c68f2-fe79-4e7c-a5fa-95927eb14d23)
-![273833563-f1eef88f-1fe9-4e55-92ba-d291dfe05bf4](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/46de19ef-d7d8-492b-967a-1cba8ebff481)
+![1.Placement Data](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/37479a83-ec5e-45be-887c-0566ea2ed85c)
+![2.Salary Data](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/0fbedf2e-1bb7-4da1-a27b-8569fe8b3956)
+![3.Checking the null() function](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/f44d5792-b310-4bad-8b79-c691141627de)
+![4.Data Duplicate](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/231b91c2-4c5d-4c53-949c-e1d5424d3d13)
+![5.Print Data](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/940c68f2-fe79-4e7c-a5fa-95927eb14d23)
+![6.Data-status](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/46de19ef-d7d8-492b-967a-1cba8ebff481)
 
-![273833588-4e9d873c-53db-4c48-aaf9-d17c864bcb46](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/71d15e5f-b161-4e0f-a09c-597788f2603a)
-![273833606-edc84ac3-fa66-4b6b-a67c-e71f61e8e456](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/ea13a823-804d-43d9-807b-1bdcdc65dc8d)
-![273833626-dd5ee355-0cde-41f6-a5c2-3d5e3a9b867e](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/a2cc8a21-49d0-4dad-b2a2-742af80e2dc5)
-![273833652-1707abcb-487f-4c61-a0cf-738bc416509f](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/4da43990-52a5-4b11-a999-48e50244083e)
-![273833726-bd376339-df10-489b-b05e-7005289d893e](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/18948c86-c5dd-4164-b9d0-7eb544593f42)
+![7.y_prediction array](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/71d15e5f-b161-4e0f-a09c-597788f2603a)
+![8.Accuracy Value](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/ea13a823-804d-43d9-807b-1bdcdc65dc8d)
+![9.Confusion Array](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/a2cc8a21-49d0-4dad-b2a2-742af80e2dc5)
+![10.Classification Report](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/4da43990-52a5-4b11-a999-48e50244083e)
+![11.Prediction of LR](https://github.com/RoghithKrishnamoorthy/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119475474/18948c86-c5dd-4164-b9d0-7eb544593f42)
 
 
 
